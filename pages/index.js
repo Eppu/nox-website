@@ -73,7 +73,6 @@ export default function Home() {
         className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-"
         alt=""
       />
-      {/* </div> */}
     </div>
   );
 }
