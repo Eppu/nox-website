@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import Nav from "../components/Nav";
-import Subscribe from "../components/Subscribe";
+import Head from 'next/head';
+import Image from 'next/image';
+import Nav from '../components/Nav';
+import Subscribe from '../components/Subscribe';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col h-screen justify-between">
         <Nav />
         <div className="flex flex-col items-center max-w-2x1 px-4 pt-16 mx-auto sm:max-w-xl md:max-w-2xl lg-pt-32 md:px-8">
-          <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+          <div className="max-w-xl mb-4 md:mx-auto sm:text-center lg:max-w-2xl md:mb-6">
             <div>
               <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
                 Coming soon
@@ -39,13 +39,16 @@ export default function Home() {
                     height="24"
                   />
                 </svg>
-                <span className="relative">The</span>
-              </span>{" "}
-              quick, brown fox jumps over a lazy dog
+                <span className="relative">Never</span>
+              </span>{' '}
+              lose track of your film development timing again.
             </h2>
-            <p className="text-base text-blue-gray-100 md:text-lg">
-              Sign up to be the first to hear about test opportunities and the
-              launch date of Nox.
+            <h3 className="max-w-lg text-xl text-leftfont-semibold text-blue-gray-100 mb-12 md:text-xl md:mx-auto">
+              Nox is the first film development timer for the{' '}
+              <span>Apple Watch</span>.
+            </h3>
+            <p className="max-w-lg text-base text-blue-gray-200 md:text-md">
+              Sign up to be the first to hear updates about Nox.
             </p>
           </div>
           <Subscribe />
