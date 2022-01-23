@@ -1,13 +1,13 @@
-// Adding support for buttondown subscriptions. Based on https://leerob.io/snippets/buttondown
+// Subscribes a user to a Buttondown email list. Based on https://leerob.io/snippets/buttondown
 
 export default async (req, res) => {
   const { email } = req.body;
-  const tags = ["Nox"];
+  const tags = ['Nox'];
   console.log(`Subscribing ${email} to ${tags}`);
   console.log(JSON.stringify({ email, tags }));
 
   if (!email) {
-    return res.status(400).json({ error: "Email is required" });
+    return res.status(400).json({ error: 'Email is required' });
   }
 
   try {
@@ -18,10 +18,10 @@ export default async (req, res) => {
         body: JSON.stringify({ email, tags }),
         headers: {
           Authorization: `Token ${API_KEY}`,
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
-        method: "POST",
-      }
+        method: 'POST',
+      },
     );
 
     if (response.status >= 400) {
