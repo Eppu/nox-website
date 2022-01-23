@@ -1,6 +1,5 @@
-import Head from "next/head";
-import Nav from "../components/Nav";
-import Subscribe from "../components/Subscribe";
+import Nav from '../components/Nav';
+import Subscribe from '../components/Subscribe';
 
 export default function Home() {
   return (
@@ -43,7 +42,7 @@ export default function Home() {
               lose track of your film development timing again.
             </h2>
             <h3 className="max-w-lg text-xl text-leftfont-semibold text-blue-gray-100 mb-12 md:text-xl md:mx-auto">
-              Nox is the first film development timer for the{' '}
+              Nox is the first multi-step film development timer for the{' '}
               <span>Apple Watch</span>.
             </h3>
             <p className="max-w-lg text-base text-blue-gray-200 md:text-md">
@@ -52,11 +51,17 @@ export default function Home() {
           </div>
           <Subscribe />
         </div>
-        <img
+        {/* 
+          This is just a placeholder. 
+        */}
+
+        <div className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-" />
+
+        {/* <img
           src="https://kitwind.io/assets/kometa/half-phone.png"
           className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-"
           alt=""
-        />
+        /> */}
       </div>
     </div>
   );
