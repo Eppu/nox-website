@@ -51,11 +51,11 @@ export default function Home() {
           </div>
           <Subscribe />
         </div>
-        <div className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-" />
+        <div className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s" />
         <img
           src="/nox.webp"
-          className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-"
-          alt=""
+          className="bg-slate-900 w-full mx-auto sm:max-w-xs md:w-auto md:max-w-sm lg:max-w-sm xl:max-w-sm"
+          alt="A screenshot of the Nox development timer app on the Apple Watch"
         />
       </div>
     </div>
