@@ -51,17 +51,12 @@ export default function Home() {
           </div>
           <Subscribe />
         </div>
-        {/* 
-          This is just a placeholder. 
-        */}
-
         <div className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-" />
-
-        {/* <img
-          src="https://kitwind.io/assets/kometa/half-phone.png"
+        <img
+          src="/nox.webp"
           className="w-full mx-auto md:w-auto md:max-w-xs lg:max-w-s xl:max-w-"
           alt=""
-        /> */}
+        />
       </div>
     </div>
   );
