@@ -28,7 +28,7 @@ const Nav = () => {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1d1d1d" />
         <meta name="msapplication-TileColor" content="#00aba9" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#004d40" />
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
