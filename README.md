@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Make sure to add your Buttondown API key to your `.env` file. You can use this 
+command to use the sample file as a base:
+```
+cp .env.sample .env
+```
+
 First, run the development server:
 
 ```bash
