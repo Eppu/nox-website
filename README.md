@@ -1,7 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
 Make sure to add your Buttondown API key to your `.env` file. You can use this 
 command to use the sample file as a base:
 ```
